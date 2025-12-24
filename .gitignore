@@ -1,4 +1,29 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Pytest
 .pytest_cache/
-.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# DO NOT ignore GitHub Actions
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
