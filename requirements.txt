@@ -1,0 +1,5 @@
+flask
+flask-caching
+flask-limiter
+pytest
+bandit
